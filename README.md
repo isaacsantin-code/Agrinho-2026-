@@ -1,1 +1,238 @@
-# Agrinho-2026-
+# Agrinho-2026-<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Isaac Santin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo Geral */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to bottom, #a8e6cf, #dcedc1);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #56ab2f, #a8e063);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            animation: slideDown 1s ease-out;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+        }
+
+        header h2 {
+            font-weight: 400;
+            margin-top: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4caf50;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 15px 0;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #2e7d32;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #1b5e20;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        /* Animações */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        ul {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            color: #ff9800;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Projeto Agrinho 2026</h1>
+        <h2>Desenvolvido por Isaac Santin</h2>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#agro">Agro Sustentável</a>
+        <a href="#valores">Valores do Agrinho</a>
+        <a href="#atividade">Atividades</a>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto Agrinho</h2>
+            <div class="card">
+                <p>
+                    O Projeto <span class="highlight">Agrinho</span> é uma iniciativa que incentiva crianças e jovens a refletirem sobre valores sociais, cidadania, sustentabilidade e a importância da conexão entre o campo e a cidade.
+                </p>
+                <p>
+                    Ele promove ações educativas que ensinam a cuidar do meio ambiente, valorizar a produção agrícola e contribuir para uma sociedade mais justa e consciente.
+                </p>
+                <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" alt="Campo e natureza">
+            </div>
+        </section>
+
+        <section id="agro">
+            <h2>Agro Sustentável</h2>
+            <div class="card">
+                <p>
+                    O <span class="highlight">Agro Sustentável</span> busca produzir alimentos de forma consciente, preservando o solo, a água, a biodiversidade e reduzindo impactos negativos no meio ambiente.
+                </p>
+                <p>Principais práticas sustentáveis:</p>
+                <ul>
+                    <li>Uso racional de recursos naturais;</li>
+                    <li>Plantio direto e rotação de culturas;</li>
+                    <li>Proteção de nascentes e matas ciliares;</li>
+                    <li>Redução do uso de agrotóxicos;</li>
+                    <li>Educação ambiental e valorização do produtor rural.</li>
+                </ul>
+                <img src="https://images.unsplash.com/photo-1562564055-71e051d6b87e" alt="Agro Sustentável">
+            </div>
+        </section>
+
+        <section id="valores">
+            <h2>Valores do Agrinho</h2>
+            <div class="card">
+                <p>
+                    O projeto Agrinho incentiva a prática de valores essenciais para a vida em sociedade:
+                </p>
+                <ul>
+                    <li>Respeito ao próximo</li>
+                    <li>Solidariedade</li>
+                    <li>Responsabilidade</li>
+                    <li>Cidadania</li>
+                    <li>Preservação ambiental</li>
+                    <li>Valorização do campo e da cidade</li>
+                </ul>
+                <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a" alt="Valores do Agrinho">
+            </div>
+        </section>
+
+        <section id="atividade">
+            <h2>Atividades e Aprendizado</h2>
+            <div class="card">
+                <p>
+                    Participar do Agrinho permite aprender brincando e praticando:
+                </p>
+                <ul>
+                    <li>Oficinas de sustentabilidade;</li>
+                    <li>Produção de hortas escolares;</li>
+                    <li>Projetos de preservação ambiental;</li>
+                    <li>Trabalhos sobre cidadania e ética;</li>
+                    <li>Apresentações e feiras educativas.</li>
+                </ul>
+                <button onclick="mostrarMensagem()">Clique para Saber Mais</button>
+                <p id="mensagem"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto Agrinho 2026 - Desenvolvido por Isaac Santin</p>
+    </footer>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").innerHTML =
+                "O Agrinho une educação, cidadania e sustentabilidade, preparando jovens para construir um futuro mais consciente e responsável!";
+        }
+    </script>
+
+</body>
+</html>
