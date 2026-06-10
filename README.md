@@ -1,4 +1,4 @@
-# Agrinho-2026-<!DOCTYPE html>
+# Agrinho-2026
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
